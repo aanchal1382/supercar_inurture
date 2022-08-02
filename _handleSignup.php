@@ -22,7 +22,7 @@ else{
     //  echo $result;
      if($result){
          $showAlert = true;
-         header("Location: /aanchaljaiswal/index.php?signupsuccess=true");
+         header("Location: index.php?signupsuccess=true");
          exit();
         }
     }
@@ -30,6 +30,6 @@ else{
         $showError = "Passwords do not match";
     }  
     }
-     header("Location: /aanchaljaiswal/index.php?signupsuccess=false&error=$showError");
+     header("Location: index.php?signupsuccess=false&error=$showError");
 }
 ?>
