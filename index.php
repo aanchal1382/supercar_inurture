@@ -28,8 +28,8 @@
 </head>
 
 <body>
-<?php include 'partials/_dbconnect.php';?>
-    <?php include 'partials/_header.php';?>
+<?php include '_dbconnect.php';?>
+    <?php include '_header.php';?>
 
 
    
@@ -95,7 +95,7 @@
 ?>
  </div>
     </div>
-    <?php include 'partials/_footer.php'; ?>
+    <?php include '_footer.php'; ?>
 
 
 
