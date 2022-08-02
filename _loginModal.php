@@ -6,7 +6,7 @@
                 <h5 class="modal-title" id="loginModalLabel">Login to SuperCars</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="/aanchaljaiswal/partials/_handleLogin.php" method="POST">
+            <form action="_handleLogin.php" method="POST">
             <div class="modal-body">
                     <div class="form-group">
                         <label for="loginEmail" class="form-label">Username</label>
