@@ -14,7 +14,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top navbar-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="/aanchaljaiswal">Home</a>
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.php">About</a>
@@ -48,7 +48,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top navbar-
       // <button class="btn btn-success" type="submit">Search</button>
       echo ' </div>
     <p class="text-light my=0 mb-0"> welcome ' . $_SESSION['useremail']. '</p>
-    <a href="partials/_logout.php" role="button" class="btn btn-outline-success ml-2">Logout</a></form>';
+    <a href="_logout.php" role="button" class="btn btn-outline-success ml-2">Logout</a></form>';
     }
     else{
       echo '<form class="d-flex">
@@ -64,8 +64,8 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top navbar-
        </div>
       </nav>';
 
-include 'partials/_loginModal.php';
-include 'partials/_signupModal.php';
+include '_loginModal.php';
+include '_signupModal.php';
 if (isset($_GET['signupsuccess']) && $_GET['signupsuccess'] == "true"){
   echo '<div class="alert alert-success alert-dismissible fade show my-0" role="alert">
   <strong>Success!</strong> You can  now login
